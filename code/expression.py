@@ -171,9 +171,9 @@ def atom(token_list):
     return None, False
 
 
-lines = lexical.scanner()
-for line in lines:
-    root, flag = expression(line)
-    root.find_T()
-    root.traverse()
-    print(root.calculate())
+#lines = lexical.scanner()
+#for line in lines:
+#    root, flag = expression(line)
+#    root.find_T()
+#    root.traverse()
+#    print(root.calculate())

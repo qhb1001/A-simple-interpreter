@@ -1,3 +1,7 @@
+若想查看程序的具体逻辑，请参见[我的博客](https://notes-hongbo.top)。
+
+若有什么可以指点的地方，还请不吝赐教。
+
 # 简介
 
 使用Python实现的简单函数绘图语言的解释器。
@@ -70,7 +74,7 @@ for t from 0 to 2*pi step pi/200 draw(cos(t),sin(t));
 
 ![](figure/4.png)
 
-# 代码
+# 模块内容
 
 本解释器的代码存放在了code目录下。其中包含的模块：
 
@@ -79,7 +83,3 @@ for t from 0 to 2*pi step pi/200 draw(cos(t),sin(t));
 * `grammer.py` 语法分析器 + 语义分析器
 * `expression.py` 递归下降子程序方法实现的表达式求值
 * `code.txt` 存放简单函数绘图语言语句的txt文件
-
-# 程序逻辑
-
-请参见我的博客
