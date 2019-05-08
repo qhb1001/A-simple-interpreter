@@ -55,4 +55,4 @@ for t from 0 to pi*20 step Pi/50 draw(70*(((1-1/(10/7))*Cos(T)+1/(10/7)*Cos(-T*(
 
 输出结果
 
-![](\PYTHON\figure\7.png)
+![](PYTHON/figure/7.png)
