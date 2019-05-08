@@ -1,0 +1,7 @@
+a = 2;
+b = 100;
+c = 1;
+for T from a to b step c draw(t, t);
+a = 0;
+b = 2 * pi;
+for T from a to b step pi / 100 draw(sin(T) * 100, cos(T) * 100);

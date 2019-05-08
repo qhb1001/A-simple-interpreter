@@ -1,0 +1,10 @@
+/* origin is (0,0); 
+rot is 0;
+scale is (1,1);  // This is comment!
+FOR T FROM 0 TO 2*PI STEP PI/50 DRAW (100*cos(T), 100*sin(T)); */
+
+
+
+// for t from 0 to 2*pi step pi/50 draw(16*(sin(t))**3,13*cos(t)-5*cos(2*t)-2*cos(3*t)-cos(4*t));
+for t from 0 to pi*20 step Pi/50 draw(((1-1/(10/7))*Cos(T)+1/(10/7)*Cos(-T*((10/7)))), 
+            (1-1/(10/7))*Sin(T)+1/(10/7)*Sin(T*((10/7)))); 
